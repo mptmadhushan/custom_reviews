@@ -13,3 +13,19 @@
   max-width: 300px;
   margin: auto;
 }
+.navbar {
+  background-color: #E9E2D8 !important;
+}.nav-link {
+  color: #9F7F54 !important;;  
+}.navbar-brand {
+  color: #9F7F54 !important;;  
+}
+.btn-r {
+  background-color: #9F7F54;
+  color: #fff !important;
+  width:10vw;  
+  padding:10px;
+}
+.navbar-nav{ 
+   margin-left: 55vw;
+}

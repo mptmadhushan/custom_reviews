@@ -12,9 +12,12 @@ function App() {
   return (
     <div>
       <nav className="navbar navbar-expand navbar-dark bg-dark">
-        <a href="/products" className="navbar-brand">
-          custom_reviews
+       <div>
+       <a href="/products" className="navbar-brand">
+          Sinhala Comments Review System
         </a>
+       </div>
+
         <div className="navbar-nav mr-auto">
           <li className="nav-item">
             <Link to={"/products/level/low"} className="nav-link">
