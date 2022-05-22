@@ -18,7 +18,13 @@
 }.nav-link {
   color: #9F7F54 !important;;  
 }.navbar-brand {
-  color: #9F7F54 !important;;  
+  color: #9F7F54 !important;
+}
+.pro-title{
+  color: #9F7F54;
+  text-align: center;
+  font-size: 5vh;
+
 }
 .btn-r {
   background-color: #9F7F54;
@@ -28,4 +34,26 @@
 }
 .navbar-nav{ 
    margin-left: 55vw;
+}
+.pro-card{
+  background-color: #E9E2D8;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 450px;
+}.pro-card-2{
+  background-color: #E9E2D8;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 400px;
+}
+.pro-container{
+  /* width:100vw; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }

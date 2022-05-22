@@ -4,24 +4,24 @@ const getAll = () => {
   return http.get("/get");
 };
 
-const getByLevel = data => {
-  return http.post("/level",data);
+const getByLevel = (data) => {
+  return http.post("/level", data);
 };
 
 // const get = id => {
 //   return http.get(`/products/${id}`);
 // };
 
-const create = data => {
+const create = (data) => {
   return http.post("/insert", data);
 };
 
-const update = data => {
+const update = (data) => {
   return http.patch("/update", data);
 };
 
-const remove = id => {
-  return http.delete(`/products/${id}`);
+const remove = (id) => {
+  return http.delete("/delete", { product_id: id });
 };
 
 // const removeAll = () => {
@@ -40,7 +40,7 @@ const ProductService = {
   remove,
   // removeAll,
   // findByTitle,
-  getByLevel
+  getByLevel,
 };
 
 export default ProductService;
