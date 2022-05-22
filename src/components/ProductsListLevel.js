@@ -46,7 +46,7 @@ const ProductListLevel = () => {
 
   return (
     <div className="">
-	<div></div>
+      <div></div>
       <div className="text-center">
         <h2 className="m-4 text-center pro-title">Products List By Level</h2>
         <div className="pro-container">
@@ -78,7 +78,7 @@ const ProductListLevel = () => {
             products.map((product, index) => (
               <div className="pro-card-2">
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="https://descriptive.audio/wp-content/uploads/2021/07/best-speaker-brands-sony.jpg"
                   style={{ width: "280px", height: "280px" }}
                   alt="product"
                 />

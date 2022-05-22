@@ -83,6 +83,11 @@ const ProductList = () => {
                 <p style={{ marginTop: "10px" }}>{product.name}</p>
                 <p style={{ marginTop: "10px" }}>{product.category}</p>
                 <p style={{ marginTop: "10px" }}>Rs .{product.price}</p>
+                <Rating
+                  onClick={handleRating}
+                  size="25"
+                  ratingValue={product.rating} /* Available Props */
+                />
               </div>
               <Link
                 to={"/products/" + product.product_id}
